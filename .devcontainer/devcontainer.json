@@ -1,0 +1,21 @@
+{
+    "name": "python test",
+    "context": "..",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "settings": {
+        "python.pythonPath": "/usr/local/bin/python",
+        "editor.formatOnSave": true,
+        "python.linting.lintOnSave": true,
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": false,
+        "python.linting.flake8Enabled": true,
+        "files.insertFinalNewline": true,
+        "editor.tabSize": 4
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+    ]
+}
